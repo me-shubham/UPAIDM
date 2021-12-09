@@ -25,6 +25,8 @@ class ProfileAlertViewController: UIViewController {
 
         self.labelAppVersion.text = "App version \(appVersion ?? "")"
         // Do any additional setup after loading the view.
+        print("Shubham")
+        
     }
     
     @IBAction func onClickExit(_ sender: NeumorphismButton) {
